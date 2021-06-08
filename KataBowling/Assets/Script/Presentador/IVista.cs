@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine.UI;
 
 namespace Assets.Script.Presentador
 {
     interface IVista
     {
-        void MostrarResultadoTotal(string resultado);
         string[,] ObtenerValoresDesdeInput();
+        void MostrarResultadoTotal(string resultado);
     }
 }

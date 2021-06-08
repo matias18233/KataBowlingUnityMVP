@@ -33,14 +33,7 @@ public class Vista : MonoBehaviour, IVista
 
     Presentador presentador = new Presentador();
 
-    private void Start()
-    {
-    }
-    private void Update()
-    {
-    }
-
-    public void btnCalcular()
+    public void BtnCalcular()
     {
          presentador.ObtenerPuntajeTotal(this);
     }

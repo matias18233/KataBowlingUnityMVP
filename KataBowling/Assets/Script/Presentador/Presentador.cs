@@ -8,20 +8,6 @@ class Presentador
     private Modelo modelo = new Modelo();
     private IVista vista;
 
-    public void ObtenerPuntajeTotal(IVista vista)
-    {
-        this.vista = vista;
-        string[,] bolosTiradosString = this.vista.ObtenerValoresDesdeInput();
-        int[,] bolosTirados = ConvertirArregloStringAInt(bolosTiradosString);
-        int puntosTotal = modelo.CalcularPuntuacionTotal(bolosTirados);
-        PresentarPuntosTotal(puntosTotal);
-    }
-
-    public void PresentarPuntosTotal(int puntosTotal)
-    {
-        this.vista.MostrarResultadoTotal(puntosTotal.ToString());
-    }
-
     public int[,] ConvertirArregloStringAInt(string[,] arregloString)
     {
         int[,] bolosTirados = new int[arregloString.GetLength(0), arregloString.GetLength(1)];
@@ -35,5 +21,19 @@ class Presentador
             }
         }
         return bolosTirados;
+    }
+
+    public void ObtenerPuntajeTotal(IVista vista)
+    {
+        this.vista = vista;
+        string[,] bolosTiradosString = this.vista.ObtenerValoresDesdeInput();
+        int[,] bolosTirados = ConvertirArregloStringAInt(bolosTiradosString);
+        int puntosTotal = modelo.CalcularPuntuacionTotal(bolosTirados);
+        PresentarPuntosTotal(puntosTotal);
+    }
+
+    public void PresentarPuntosTotal(int puntosTotal)
+    {
+        this.vista.MostrarResultadoTotal(puntosTotal.ToString());
     }
 }
