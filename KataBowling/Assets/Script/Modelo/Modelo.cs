@@ -4,24 +4,25 @@ using UnityEngine;
 
 public class Modelo
 {
-    int score = 0;
-    int backTurn;
-    public int GetScore(int[,] turns)
+    int pasoAnterior;
+
+    public int CalcularPuntuacionTotal(int[,] bolosTirados)
     {
-        for (int turn = 0; turn < turns.GetLength(0); turn++)
+        int puntajeTotal = 0;
+        for (int bolosTiradosTurnoActual = 0; bolosTiradosTurnoActual < bolosTirados.GetLength(0); bolosTiradosTurnoActual++)
         {
-            backTurn = turn - 1;
+            pasoAnterior = bolosTiradosTurnoActual - 1;
             // check if strike
-            if (turn > 0 && turns[backTurn, 0] == 10)
-                score += turns[turn, 0] + turns[turn, 1];
+            if (bolosTiradosTurnoActual > 0 && bolosTirados[pasoAnterior, 0] == 10)
+                puntajeTotal += bolosTirados[bolosTiradosTurnoActual, 0] + bolosTirados[bolosTiradosTurnoActual, 1];
 
             // check if spare
-            else if (turn > 0 && turns[backTurn, 0] + turns[backTurn, 1] == 10)
-                score += turns[turn, 0];
+            else if (bolosTiradosTurnoActual > 0 && bolosTirados[pasoAnterior, 0] + bolosTirados[pasoAnterior, 1] == 10)
+                puntajeTotal += bolosTirados[bolosTiradosTurnoActual, 0];
 
-            for (int lot = 0; lot < turns.GetLength(1); lot++)
-                score += turns[turn, lot];
+            for (int lot = 0; lot < bolosTirados.GetLength(1); lot++)
+                puntajeTotal += bolosTirados[bolosTiradosTurnoActual, lot];
         }
-        return score;
+        return puntajeTotal;
     }
 }

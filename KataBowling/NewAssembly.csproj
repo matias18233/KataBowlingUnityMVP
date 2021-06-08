@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{434DE52A-ABED-5F88-93A7-7F77777AABA6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -56,12 +57,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Presentador\Presentador.cs" />
     <Compile Include="Assets\Script\Modelo\Modelo.cs" />
     <Compile Include="Assets\Script\Vista\Vista.cs" />
+    <Compile Include="Assets\Script\Presentador\Presentador.cs" />
+    <Compile Include="Assets\Script\Presentador\IVista.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\Game.asmdef" />
+    <None Include="Assets\Game.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
@@ -51,7 +51,7 @@ MonoBehaviour:
   - {fileID: 18}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 471}
   m_MaxSize: {x: 10001, y: 14021}
   vertical: 1
-  controlID: 48
+  controlID: 72
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,8 +96,8 @@ MonoBehaviour:
     y: 0
     width: 450
     height: 947
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -125,10 +125,10 @@ MonoBehaviour:
     y: 0
     width: 1310
     height: 947
-  m_MinSize: {x: 433, y: 471}
-  m_MaxSize: {x: 14003, y: 14021}
+  m_MinSize: {x: 431, y: 471}
+  m_MaxSize: {x: 14001, y: 14021}
   vertical: 0
-  controlID: 106
+  controlID: 22
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,8 +150,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 708, y: 471}
-  m_MaxSize: {x: 18003, y: 14021}
+  m_MinSize: {x: 706, y: 471}
+  m_MaxSize: {x: 18001, y: 14021}
   vertical: 0
   controlID: 17
 --- !u!114 &7
@@ -306,7 +306,7 @@ MonoBehaviour:
     height: 501
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 6874
+    ID: 2628
     splitterInitialOffset: 292
     currentActiveSplitter: -1
     realSizes:
@@ -390,7 +390,7 @@ MonoBehaviour:
       name: KataBowling
       fullName: KataBowling
       resultStatus: 1
-      duration: 0.0705974
+      duration: 0.0780681
       messages: 
       output: 
       stacktrace: 
@@ -406,7 +406,7 @@ MonoBehaviour:
       name: Tests.dll
       fullName: C:/xampp/htdocs/KataBowling/KataBowling/Library/ScriptAssemblies/Tests.dll
       resultStatus: 1
-      duration: 0.0457826
+      duration: 0.0401597
       messages: 
       output: 
       stacktrace: 
@@ -422,7 +422,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 1
-      duration: 0.044601
+      duration: 0.0387272
       messages: 
       output: 
       stacktrace: 
@@ -438,7 +438,7 @@ MonoBehaviour:
       name: ModeloTest
       fullName: Tests.ModeloTest
       resultStatus: 1
-      duration: 0.0423953
+      duration: 0.0367769
       messages: 
       output: 
       stacktrace: 
@@ -454,7 +454,7 @@ MonoBehaviour:
       name: PointsSpareInLastThrow
       fullName: Tests.ModeloTest.PointsSpareInLastThrow
       resultStatus: 1
-      duration: 0.0174221
+      duration: 0.0150287
       messages: 
       output: 
       stacktrace: 
@@ -471,7 +471,7 @@ MonoBehaviour:
       name: PointsStrikeInLastThrow
       fullName: Tests.ModeloTest.PointsStrikeInLastThrow
       resultStatus: 1
-      duration: 0.0006284
+      duration: 0.0004813
       messages: 
       output: 
       stacktrace: 
@@ -488,7 +488,7 @@ MonoBehaviour:
       name: PointsWithoutStrikeAndSpare
       fullName: Tests.ModeloTest.PointsWithoutStrikeAndSpare
       resultStatus: 1
-      duration: 0.0003283
+      duration: 0.0002432
       messages: 
       output: 
       stacktrace: 
@@ -505,7 +505,7 @@ MonoBehaviour:
       name: PointsWithoutStrikeAndSpareAgain
       fullName: Tests.ModeloTest.PointsWithoutStrikeAndSpareAgain
       resultStatus: 1
-      duration: 0.00028
+      duration: 0.0002418
       messages: 
       output: 
       stacktrace: 
@@ -522,7 +522,7 @@ MonoBehaviour:
       name: PointsWithSpare
       fullName: Tests.ModeloTest.PointsWithSpare
       resultStatus: 1
-      duration: 0.000262
+      duration: 0.0002432
       messages: 
       output: 
       stacktrace: 
@@ -539,7 +539,7 @@ MonoBehaviour:
       name: PointsWithStrike
       fullName: Tests.ModeloTest.PointsWithStrike
       resultStatus: 1
-      duration: 0.0002508
+      duration: 0.0002354
       messages: 
       output: 
       stacktrace: 
@@ -551,7 +551,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/Tests/[Tests][Tests.ModeloTest][suite]
-    m_ResultText: ModeloTest (0,042s)
+    m_ResultText: ModeloTest (0,037s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
@@ -621,21 +621,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Image
+    - Assets/Script/Tests
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 56
   m_LastFolders:
-  - Assets/Image
+  - Assets/Script/Tests
   m_LastFoldersGridSize: 56
   m_LastProjectPath: C:\xampp\htdocs\KataBowlingUnityMVP\KataBowling
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a8650000
-    m_LastClickedID: 26024
-    m_ExpandedIDs: 00000000723f0000743f0000763f000000ca9a3b
+    m_SelectedIDs: 9c3f0000
+    m_LastClickedID: 16284
+    m_ExpandedIDs: 00000000863f0000883f00008a3f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -663,7 +663,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000723f0000743f0000763f0000
+    m_ExpandedIDs: 00000000863f0000883f00008a3f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -690,7 +690,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300004439000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -785,9 +785,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e83d0000
-      m_LastClickedID: 15848
-      m_ExpandedIDs: b43fffff5afbffff343c0000463c0000963c0000b83c0000f23c00000c3d0000163d0000223d00002c3d00003e3d0000483d00005a3d0000a43d0000d63d0000e83d0000023e0000143e0000363e0000503e00005a3e00007c3e0000ae3e0000c83e00000a3f00002c3f0000
+      m_SelectedIDs: f83d0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8aecffff5afbffff463c0000263d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -847,9 +847,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 528.3095, y: 694.6362, z: -1206.3278}
+    m_Target: {x: 442.52618, y: 1051.2306, z: -1231.5148}
     speed: 2
-    m_Value: {x: 528.3095, y: 694.6362, z: -1206.3278}
+    m_Value: {x: 442.52618, y: 1051.2306, z: -1231.5148}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -900,9 +900,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 579.7204
+    m_Target: 657.5464
     speed: 2
-    m_Value: 579.7204
+    m_Value: 657.5464
   m_Ortho:
     m_Target: 1
     speed: 2
