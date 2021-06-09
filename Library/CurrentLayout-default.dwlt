@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 9}
-  m_MinSize: {x: 875, y: 371}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -34,7 +34,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TestRunnerWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -43,15 +43,15 @@ MonoBehaviour:
     y: 425
     width: 860
     height: 522
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
   - {fileID: 18}
   - {fileID: 12}
-  m_Selected: 2
-  m_LastSelected: 1
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -73,10 +73,10 @@ MonoBehaviour:
     y: 0
     width: 860
     height: 947
-  m_MinSize: {x: 200, y: 321}
-  m_MaxSize: {x: 4001, y: 8021}
+  m_MinSize: {x: 231, y: 471}
+  m_MaxSize: {x: 10001, y: 14021}
   vertical: 1
-  controlID: 106
+  controlID: 72
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,8 +125,8 @@ MonoBehaviour:
     y: 0
     width: 1310
     height: 947
-  m_MinSize: {x: 402, y: 321}
-  m_MaxSize: {x: 8003, y: 8021}
+  m_MinSize: {x: 433, y: 471}
+  m_MaxSize: {x: 14003, y: 14021}
   vertical: 0
   controlID: 16
 --- !u!114 &6
@@ -150,8 +150,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 677, y: 321}
-  m_MaxSize: {x: 12003, y: 8021}
+  m_MinSize: {x: 708, y: 471}
+  m_MaxSize: {x: 18003, y: 14021}
   vertical: 0
   controlID: 41
 --- !u!114 &7
@@ -306,7 +306,7 @@ MonoBehaviour:
     height: 501
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 9094
+    ID: 128
     splitterInitialOffset: 292
     currentActiveSplitter: -1
     realSizes:
@@ -390,7 +390,7 @@ MonoBehaviour:
       name: KataBowling
       fullName: KataBowling
       resultStatus: 1
-      duration: 0.1142259
+      duration: 0.0610357
       messages: 
       output: 
       stacktrace: 
@@ -406,7 +406,7 @@ MonoBehaviour:
       name: Tests.dll
       fullName: C:/xampp/htdocs/KataBowling/KataBowling/Library/ScriptAssemblies/Tests.dll
       resultStatus: 1
-      duration: 0.0518697
+      duration: 0.0402574
       messages: 
       output: 
       stacktrace: 
@@ -422,7 +422,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 1
-      duration: 0.0464159
+      duration: 0.0392132
       messages: 
       output: 
       stacktrace: 
@@ -438,7 +438,7 @@ MonoBehaviour:
       name: ModeloTest
       fullName: Tests.ModeloTest
       resultStatus: 1
-      duration: 0.0436128
+      duration: 0.0373117
       messages: 
       output: 
       stacktrace: 
@@ -454,7 +454,7 @@ MonoBehaviour:
       name: PointsSpareInLastThrow
       fullName: Tests.ModeloTest.PointsSpareInLastThrow
       resultStatus: 1
-      duration: 0.0197381
+      duration: 0.015496
       messages: 
       output: 
       stacktrace: 
@@ -471,7 +471,7 @@ MonoBehaviour:
       name: PointsStrikeInLastThrow
       fullName: Tests.ModeloTest.PointsStrikeInLastThrow
       resultStatus: 1
-      duration: 0.000676
+      duration: 0.000443
       messages: 
       output: 
       stacktrace: 
@@ -488,7 +488,7 @@ MonoBehaviour:
       name: PointsWithoutStrikeAndSpare
       fullName: Tests.ModeloTest.PointsWithoutStrikeAndSpare
       resultStatus: 1
-      duration: 0.0003675
+      duration: 0.0002347
       messages: 
       output: 
       stacktrace: 
@@ -505,7 +505,7 @@ MonoBehaviour:
       name: PointsWithoutStrikeAndSpareAgain
       fullName: Tests.ModeloTest.PointsWithoutStrikeAndSpareAgain
       resultStatus: 1
-      duration: 0.000325
+      duration: 0.00023
       messages: 
       output: 
       stacktrace: 
@@ -522,7 +522,7 @@ MonoBehaviour:
       name: PointsWithSpare
       fullName: Tests.ModeloTest.PointsWithSpare
       resultStatus: 1
-      duration: 0.0002921
+      duration: 0.0002276
       messages: 
       output: 
       stacktrace: 
@@ -539,7 +539,7 @@ MonoBehaviour:
       name: PointsWithStrike
       fullName: Tests.ModeloTest.PointsWithStrike
       resultStatus: 1
-      duration: 0.0002777
+      duration: 0.0002289
       messages: 
       output: 
       stacktrace: 
@@ -551,7 +551,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/Tests/[Tests][Tests.ModeloTest][suite]
-    m_ResultText: ModeloTest (0,044s)
+    m_ResultText: ModeloTest (0,037s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
@@ -628,13 +628,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Script/Tests
   m_LastFoldersGridSize: 56
-  m_LastProjectPath: C:\xampp\htdocs\KataBowlingUnityMVP\KataBowling
+  m_LastProjectPath: C:\xampp\htdocs\KataBowlingUnityMVP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a63f0000
-    m_LastClickedID: 16294
+    m_SelectedIDs: b63f0000
+    m_LastClickedID: 16310
     m_ExpandedIDs: 00000000903f0000923f0000943f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -688,8 +688,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 263e0000
-    m_LastClickedInstanceID: 15910
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300004439000000000000
     m_RenameOverlay:
@@ -785,9 +785,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 18770000
-      m_LastClickedID: 30488
-      m_ExpandedIDs: c0c8fffff0c8ffff5afbffff483c0000a03c0000d43c00000e3d0000283d0000483d0000643d00000c3f00002e3f000018770000f8770000
+      m_SelectedIDs: ce330000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 5cf9ffff5afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

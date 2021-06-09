@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FC59AA21-2997-9578-D1D8-47DFD3ADFAD1}</ProjectGuid>
+    <ProjectGuid>{33730E42-38FE-ECC0-AE75-5230CF1D5C6F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Tests</AssemblyName>
@@ -630,7 +630,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NewAssembly.csproj">
-      <Project>{434DE52A-ABED-5F88-93A7-7F77777AABA6}</Project>
+      <Project>{39B4220A-68D3-115F-C55F-51804F713887}</Project>
       <Name>NewAssembly</Name>
     </ProjectReference>
   </ItemGroup>
